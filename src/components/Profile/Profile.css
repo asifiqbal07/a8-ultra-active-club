@@ -1,0 +1,31 @@
+.profile {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.profile img {
+    margin-right: 15px;
+}
+
+.profile h3,
+p {
+    margin: 0;
+}
+
+.profile-details {
+    text-align: center;
+    display: flex;
+    background-color: #f3f3f1;
+    margin-top: 30px;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.profile-details h3{
+    margin: 2px;
+
+}
