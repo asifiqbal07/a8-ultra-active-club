@@ -9,8 +9,11 @@
     margin-right: 15px;
 }
 
-.profile h3,
-p {
+.profile h3 {
+    margin: 0;
+}
+
+.profile p {
     margin: 0;
 }
 
@@ -28,4 +31,7 @@ p {
 .profile-details h3{
     margin: 2px;
 
+}
+.profile-details p{
+    margin: 0;
 }

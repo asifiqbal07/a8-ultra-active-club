@@ -2,8 +2,8 @@ import React from 'react';
 import './Exercise.css'
 
 const Exercise = (props) => {
-    console.log(props)
     const { name, img, age, Details, Time } = props.exercise;
+    const { handdleAddToSidebar } = props;
     return (
         <div className='exercise'>
             <img src={img} alt="" />
@@ -11,7 +11,7 @@ const Exercise = (props) => {
             <p> {Details} </p>
             <p>Age: {age}</p>
             <p>Time: {Time}m</p>
-            <button className='btn-list'>
+            <button onClick={() => handdleAddToSidebar(props.exercise)} className='btn-list'>
                 <p>Add to list</p>
             </button>
         </div>
