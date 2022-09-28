@@ -3,32 +3,48 @@
       "id": 1,
       "img": "./json-images/1.avif",
       "name": "Dumble",
-      "Details": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-      "age": 20,
+      "Details": "Want to feel better, have more energy and even add years to your life? Just exercise.",
+      "age": "20-30",
       "Time": 2
     },
     {
       "id": 2,
       "img": "./json-images/2.avif",
-      "name": "Dumble",
-      "Details": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-      "age": 22,
-      "Time": 2
+      "name": "Battle Rope",
+      "Details": "Want to feel better, have more energy and even add years to your life? Just exercise.",
+      "age": "15-30",
+      "Time": 5
     },
     {
       "id": 3,
       "img": "./json-images/3.avif",
-      "name": "Dumble",
-      "Details": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-      "age": 23,
-      "Time": 2
+      "name": "Weight Lifting",
+      "Details": "Want to feel better, have more energy and even add years to your life? Just exercise.",
+      "age": "18-25",
+      "Time": 7
     },
     {
       "id": 4,
       "img": "./json-images/4.avif",
-      "name": "Dumble",
-      "Details": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
-      "age": 25,
-      "Time": 2
+      "name": "Treadmill",
+      "Details": "Want to feel better, have more energy and even add years to your life? Just exercise.",
+      "age": "20-50",
+      "Time": 10
+    },
+    {
+      "id": 5,
+      "img": "./json-images/5.avif",
+      "name": "Pull Down",
+      "Details": "Want to feel better, have more energy and even add years to your life? Just exercise.",
+      "age": "20-30",
+      "Time": 3
+    },
+    {
+      "id": 6,
+      "img": "./json-images/6.avif",
+      "name": "Barbel Curl",
+      "Details": "Want to feel better, have more energy and even add years to your life? Just exercise.",
+      "age": "20-40",
+      "Time": 5
     }
   ]
