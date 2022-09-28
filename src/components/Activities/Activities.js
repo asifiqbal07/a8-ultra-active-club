@@ -5,7 +5,7 @@ import Exercises from '../Exercises/Exercises';
 
 const Activities = () => {
     return (
-        <div>
+        <div className='activities'>
             <div className="header">
                 <img src={logo} alt="" />
                 <h2>Spartan Active Club</h2>

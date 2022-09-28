@@ -1,0 +1,9 @@
+.sidebar{
+    background-color: white;
+    margin-left: 10%;
+    position: sticky;
+    top: 0;
+    /* height: 500px; */
+    padding-left: 30px;
+    margin-top: 0;
+}

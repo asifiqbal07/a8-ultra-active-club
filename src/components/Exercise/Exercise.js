@@ -10,7 +10,7 @@ const Exercise = (props) => {
             <h3>Name: {name}</h3>
             <p> {Details} </p>
             <p>Age: {age}</p>
-            <p>Time: {Time} minutes</p>
+            <p>Time: {Time}m</p>
             <button className='btn-list'>
                 <p>Add to list</p>
             </button>
