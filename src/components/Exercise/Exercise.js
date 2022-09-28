@@ -11,6 +11,9 @@ const Exercise = (props) => {
             <p> {Details} </p>
             <p>Age: {age}</p>
             <p>Time: {Time}</p>
+            <button className='btn-list'>
+                <p>Add to list</p>
+            </button>
         </div>
     );
 };
