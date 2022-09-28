@@ -1,5 +1,13 @@
+body{
+  background-color: #f3f3f1;
+}
 .App {
-  text-align: center;
+  /* text-align: center; */
+  margin-top: 2%;
+  margin-left: 4%;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+
 }
 
 .App-logo {
