@@ -5,3 +5,8 @@
     column-gap: 3%;
     
 }
+@media only screen and (max-width: 700px){
+    .exercises {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

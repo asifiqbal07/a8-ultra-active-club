@@ -1,12 +1,5 @@
 body{
   background-color: #f3f3f1;
+  position: relative;
 }
-.App {
-  /* margin-top: 2%; */
-  margin-left: 3%;
-  display: grid;
-  grid-template-columns: 5fr 2fr;
-}
-
-
 

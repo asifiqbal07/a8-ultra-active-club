@@ -1,17 +1,17 @@
 import React from 'react';
 import './Activities.css'
-import logo from '../../images/logo.png'
 import Exercises from '../Exercises/Exercises';
+import Sidebar from '../Sidebar/Sidebar';
 
 const Activities = () => {
     return (
-        <div className='activities'>
-            <div className="header">
-                <img src={logo} alt="" />
-                <h2>Spartan Active Club</h2>
+        <div className='main-activities'>
+            <div className='activities'>
+                <Exercises></Exercises>
             </div>
-            <h3>Select today’s exercise</h3>
-            <Exercises></Exercises>
+            <div className='sidebar'>
+                <Sidebar></Sidebar>
+            </div>
         </div>
     );
 };

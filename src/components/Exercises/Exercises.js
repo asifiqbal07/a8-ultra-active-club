@@ -4,6 +4,7 @@ import './Exercises.css'
 
 const Exercises = () => {
     const [exercises, setExercises] = useState([]);
+    const [sidebar, setSidebar] = useState([]);
 
     useEffect(() => {
         fetch('exercises.json')
@@ -13,6 +14,8 @@ const Exercises = () => {
 
     const handdleAddToSidebar = (exercise) => {
         console.log(exercise)
+        const newSidebar = [...sidebar, exercise]
+        setSidebar(newSidebar);
     }
 
     return (
