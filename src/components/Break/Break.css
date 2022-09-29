@@ -1,0 +1,9 @@
+.break-btn{
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+}
+.break-btn:hover{
+    background-color: #2a9d8f;
+    color: white;
+}

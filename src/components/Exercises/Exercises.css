@@ -1,9 +1,35 @@
-.exercises {
-    display: grid;
+.main {
+    /* display: grid;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 4%;
+    column-gap: 3%; */
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    row-gap: 4%;
     column-gap: 3%;
+    position: relative;
     
+    
+    
+}
+.exercises{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 3%;
+    column-gap: 3%;
+}
+.main-sidebar{
+    top: 0;
+    background-color: white;
+    margin-right: 10%;
+    position: sticky;
+
+}
+.sidebar{
+    padding-left: 10px;
+    padding-right: 10px;
+    position: sticky;
+    top: 0;
 }
 @media only screen and (max-width: 700px){
     .exercises {

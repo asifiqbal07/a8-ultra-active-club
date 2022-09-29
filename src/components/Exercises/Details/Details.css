@@ -1,0 +1,25 @@
+.exercise-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3f3f1;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.exercise-time h4,h5{
+    padding: 20px;
+    margin: 0;
+    
+}
+.break-time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3f3f1;
+    border-radius: 10px;
+}
+.break-time h4,h5{
+    padding: 20px;
+    margin: 0;
+    
+}
