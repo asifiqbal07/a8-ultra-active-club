@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Exercise from '../Exercise/Exercise';
-import Details from '../Exercises/Details/Details';
+import Details from '../Details/Details';
 import Profile from '../Profile/Profile';
 import './Exercises.css'
 import Breaks from '../Breaks/Breaks';
@@ -31,8 +31,8 @@ const Exercises = () => {
 
     const handdleAddToBreakTime = (breakTime) => {
         console.log(breakTime);
-        const newBreakTimes = [...breakTimes, breakTime]
-        setSidebar(newBreakTimes);
+        // const newBreakTimes = [...breakTimes, breakTime]
+        // setSidebar(newBreakTimes);
     }
 
     return (
@@ -66,11 +66,11 @@ const Exercises = () => {
                         breakTimes={breakTimes}
                     ></Breakk>
                     <div className='btn'>
-                    <button>Activity Completed</button>
+                        <button>Activity Completed</button>
                     </div>
                 </div>
             </div>
-            
+
         </div>
     );
 };
