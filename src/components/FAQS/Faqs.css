@@ -1,0 +1,31 @@
+.faq{
+    margin-top: 5%;
+    width: 69%;
+    margin-bottom: 20px;
+    
+}
+.faq h2{
+    background-color: #2a9d8f;
+    color: white;
+    padding-left: 10px;
+}
+.faq p{
+    margin: 0;
+}
+.faq div{
+    padding: 10px;
+}
+.faq h3{
+    color:#2a9d8f ;
+}
+@media only screen and (max-width: 700px){
+    .faq{
+        
+        width: 100%;
+        padding: 0;
+        margin-right: 3%;
+        
+
+        
+    }
+}

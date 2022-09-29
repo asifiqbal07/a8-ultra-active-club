@@ -22,6 +22,7 @@
 @media only screen and (max-width: 700px) {
     .main-header {
         text-align: center;
+        margin-right: 3%;
     }
 
     .header {

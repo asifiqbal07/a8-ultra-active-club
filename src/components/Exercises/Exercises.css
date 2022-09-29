@@ -22,7 +22,7 @@
     top: 0;
     background-color: white;
     margin-right: 10%;
-    position: sticky;
+    /* position: sticky; */
 
 }
 .sidebar{
@@ -31,8 +31,43 @@
     position: sticky;
     top: 0;
 }
+.breaks-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f3f3f1;
+    padding: 10px;
+    
+}
+.btn{
+    margin: 20px;
+    
+}
+.btn button{
+    border: none;
+    background-color: #2a9d8f;
+    color: white;
+    width: 310px;
+    height: 35px;
+    text-align: center;
+}
 @media only screen and (max-width: 700px){
     .exercises {
         grid-template-columns: repeat(1, 1fr);
+        position: static;
+        gap: 20px;
+        margin: 20px;
     }
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+    .sidebar{
+        position: static;
+        margin-bottom: 20px;
+    }
+    
 }

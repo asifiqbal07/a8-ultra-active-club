@@ -1,7 +1,13 @@
-.test {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #f3f3f1;
-    padding: 10px;
+
+.break-btn{
+    border: none;
+    border-radius: 50%;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    
+}
+.break-btn:hover{
+    background-color: #2a9d8f;
+    color: white;
 }
